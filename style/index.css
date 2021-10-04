@@ -217,7 +217,7 @@ button a {
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		margin: 0 30px;
+		margin: 0 50px;
 	}
 
 	.description {
@@ -229,11 +229,32 @@ button a {
 	.description p {
 		display: flex;
 		text-align: center;
-		margin: 15px 45px;
+		margin: 0px 45px;
+		margin-top: 5px;
 	}
 
 	.description h2 {
 		font-size: 19px;
 		margin-bottom: 8px;
+	}
+
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.row .portfolio-element {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		margin: 25px 40px;
+		width: 30%;
+		justify-content: center;
+	}
+	footer button {
+		margin: 10px;
 	}
 }
