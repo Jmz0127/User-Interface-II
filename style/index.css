@@ -197,3 +197,43 @@ button a {
 	text-decoration: none;
 	color: inherit;
 }
+
+/* adding media query below */
+
+@media (max-width: 500px) {
+	nav.top {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin: 1% 40%;
+	}
+	header h1 {
+		display: flex;
+		justify-content: center;
+		font-size: 35px;
+	}
+	.topsection {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		margin: 0 30px;
+	}
+
+	.description {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.description p {
+		display: flex;
+		text-align: center;
+		margin: 15px 45px;
+	}
+
+	.description h2 {
+		font-size: 19px;
+		margin-bottom: 8px;
+	}
+}
